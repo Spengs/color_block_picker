@@ -14,32 +14,48 @@ console.log(rightAnswer);
 
     randomNumber(1,4);
     console.log(rightAnswer);
+
       if(rightAnswer == 1) {
         alert("Click Blue!");
         $(".bluebox").on("click", function(){
           alert("Great Job!");
+          randomNumber(1,4);
+        });
+          $(".yellowbox, .greenbox, .redbox").on("click", function(){
+            alert("Try Again!");
         })
       }else if(rightAnswer == 2){
         alert("Click Red!");
         $(".redbox").on("click", function(){
           alert("Great Job!");
+          randomNumber(1,4);
+        })
+        $(".yellowbox, .greenbox, .bluebox").on("click", function(){
+          alert("Try Again!");
         })
       }else if(rightAnswer == 3){
         alert("Click Green!");
         $(".greenbox").on("click", function(){
           alert("Great Job!");
+          randomNumber(1,4);
+        })
+        $(".yellowbox, .bluebox, .redbox").on("click", function(){
+          alert("Try Again!");
         })
       }else if(rightAnswer == 4){
         alert("Click Yellow!");
         $(".yellowbox").on("click", function(){
           alert("Great Job!");
+          randomNumber(1,4);
+        })
+        $(".bluebox, .greenbox, .redbox").on("click", function(){
+          alert("Try Again!");
         })
       }
-      $("body").on("click", function(){
-        alert("Try Again!");
-      })
+
 
 console.log(rightAnswer);
+
 
 
 });
