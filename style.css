@@ -1,0 +1,32 @@
+/*#container {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+}*/
+.bluebox {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  display: inline-flex;;
+}
+
+.greenbox {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  display: inline-flex;
+}
+
+.redbox {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  display: inline-flex;
+}
+
+.yellowbox {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  display: inline-flex;
+}
